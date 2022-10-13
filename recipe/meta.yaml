@@ -55,7 +55,7 @@ about:
 
 extra:
   recipe-maintainers:
-    - pgbrodrick
-    - winstonolson
-    - davidraythompson
     - unbohn
+    - pgbrodrick
+    - davidraythompson
+ 
