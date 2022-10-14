@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
@@ -31,7 +31,6 @@ requirements:
     - pep8 >=1.7.1
     - python-xxhash >=1.2.0
     - pyyaml >=5.3.2
-    - ray-all >=1.2.0
     - pandas >=0.24.0
     - gdal >=2.0.0
     - tensorflow >=2.0.1
