@@ -1,5 +1,5 @@
 {% set name = "isofit" %}
-{% set version = "2.9.5" %}
+{% set version = "2.9.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/isofit-{{ version }}.tar.gz
-  sha256: a0da551073765dd2ad093b7772a8362b88150c472ccd6edaabc320cddc267cd5 
+  sha256: 1fa5ae596a462415b39f9c0e6d12001e8c0633a052fd616d0986400e9f147478
 
 build:
   noarch: python
-  number: 1
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -44,7 +44,7 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'Imaging Spectrometer Optimal FITting (ISOFIT)'
+  summary: Imaging Spectrometer Optimal FITting (ISOFIT)
   description: |
     ISOFIT contains a set of routines and utilities for fitting surface, 
     atmosphere and instrument models to imaging spectrometer data
