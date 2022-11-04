@@ -13,8 +13,8 @@ Development: https://github.com/isofit/isofit
 
 Documentation: https://github.com/isofit/isofit/wiki
 
-ISOFIT provides routines and utilities for fitting surface, atmosphere
-and instrument models to imaging spectrometer data
+ISOFIT contains a set of routines and utilities for fitting surface,
+atmosphere and instrument models to imaging spectrometer data
 
 
 Current build status
@@ -151,7 +151,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@unbohn](https://github.com/unbohn/)
-* [@pgbrodrick](https://github.com/pgbrodrick/)
 * [@davidraythompson](https://github.com/davidraythompson/)
+* [@pgbrodrick](https://github.com/pgbrodrick/)
+* [@unbohn](https://github.com/unbohn/)
 
