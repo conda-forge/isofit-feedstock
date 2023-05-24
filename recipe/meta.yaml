@@ -1,5 +1,5 @@
 {% set name = "isofit" %}
-{% set version = "2.9.9.2" %}
+{% set version = "2.10.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/isofit-{{ version }}.tar.gz
-  sha256: ac580e96606e9911df4df975e239f93ded979f10baafa00d8dde3aeb61215d4e
+  sha256: 945b3710f937e8c577419032c41c65eccc646cc85fdaaeb1ca091769c4617461
 
 build:
   noarch: python
