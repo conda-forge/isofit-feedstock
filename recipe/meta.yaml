@@ -37,7 +37,7 @@ requirements:
 
 test:
   commands:
-    - ISOFIT_DEBUG=1
+    - export ISOFIT_DEBUG=1
   imports:
     - {{ name }}
 
