@@ -36,10 +36,8 @@ requirements:
     - tensorflow >=2.0.1
    
 test:
-   commands:
-     - pip install ray
    imports:
-     - {{ name }}
+     - isofit.utils.apply_oe
 
 about:
   home: https://github.com/{{ name }}/{{ name }}
