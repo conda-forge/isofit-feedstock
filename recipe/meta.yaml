@@ -41,6 +41,8 @@ requirements:
 test:
   commands:
     - pip install ndsplines
+  requires:
+    - pip
 
 about:
   home: https://github.com/{{ name }}/{{ name }}
