@@ -35,12 +35,6 @@ requirements:
     - spectral >=0.19
     - tensorflow >=2.0.1
 
-test:
-  commands:
-    - export ISOFIT_DEBUG=1
-  imports:
-    - {{ name }}
-
 about:
   home: https://github.com/{{ name }}/{{ name }}
   license: Apache-2.0
