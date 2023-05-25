@@ -37,8 +37,10 @@ requirements:
     - tensorflow >=2.0.1
    
 test:
-   imports:
-     - isofit
+   commands:
+    - pip check
+   requires:
+    - pip
 
 about:
   home: https://github.com/{{ name }}/{{ name }}
