@@ -21,7 +21,7 @@ requirements:
   run:
     - gdal >=2.0.0
     - matplotlib-base >=2.2.2
-    - python-ndsplines >= 0.1.2
+    - python-ndsplines >=0.1.2
     - numpy >=1.20
     - pandas >=0.24.0
     - pep8 >=1.7.1
