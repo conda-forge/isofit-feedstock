@@ -44,7 +44,6 @@ test:
    commands:
     - pip check
    requires:
-    - ndsplines
     - pip
 
 about:
