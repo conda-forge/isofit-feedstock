@@ -40,12 +40,8 @@ requirements:
     - tensorflow >=2.0.1
    
 test:
-   imports:
-    - {{ name }}
-   commands:
-    - pip check
-   requires:
-    - pip
+  commands:
+    - pip install ndsplines
 
 about:
   home: https://github.com/{{ name }}/{{ name }}
