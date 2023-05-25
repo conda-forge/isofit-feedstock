@@ -34,6 +34,12 @@ requirements:
     - setuptools
     - spectral >=0.19
     - tensorflow >=2.0.1
+   
+test:
+   commands:
+     - pip install ray
+   imports:
+     - {{ name }}
 
 about:
   home: https://github.com/{{ name }}/{{ name }}
