@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -25,6 +25,7 @@ requirements:
     - pandas >=0.24.0
     - pep8 >=1.7.1
     - protobuf >3.19.0
+    - pygrib
     - pytest >=3.5.1
     - python >=3.8
     - python-xxhash <3
@@ -37,7 +38,7 @@ requirements:
     - spectral >=0.19
     - utm
     - tensorflow >=2.0.1
-   
+
 test:
   commands:
     - pip install ndsplines
