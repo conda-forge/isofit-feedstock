@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -19,12 +19,12 @@ requirements:
     - pip
     - python >=3.8
   run:
+    - click
     - gdal >=2.0.0
     - matplotlib-base >=2.2.2
     - numpy >=1.20
     - pandas >=0.24.0
     - pep8 >=1.7.1
-    - protobuf >3.19.0
     - pygrib
     - pytest >=3.5.1
     - python >=3.8
@@ -41,7 +41,7 @@ requirements:
 
 test:
   commands:
-    - pip install ndsplines
+    - pip check
   requires:
     - pip
 
