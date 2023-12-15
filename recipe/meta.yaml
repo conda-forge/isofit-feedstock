@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 3
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -40,6 +40,8 @@ requirements:
     - tensorflow >=2.0.1
 
 test:
+  imports:
+    - isofit
   commands:
     - pip check
   requires:
