@@ -16,9 +16,7 @@ build:
 
 requirements:
   host:
-    - pep8 >=1.7.1
     - pip
-    - pytest >=3.5.1
     - python >=3.8
     - setuptools
   run:
@@ -26,7 +24,9 @@ requirements:
     - matplotlib-base >=2.2.2
     - numpy >=1.20
     - pandas >=0.24.0
+    - pep8 >=1.7.1
     - pygrib
+    - pytest >=3.5.1
     - python >=3.8
     - python-xxhash >=1.2.0
     - pyyaml >=5.3.2
