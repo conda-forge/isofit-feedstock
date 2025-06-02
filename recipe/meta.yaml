@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -23,8 +23,8 @@ requirements:
     - click
     - dask
     - h5py
-    - netCDF4 <1.7.1
-    - numpy >=1.20,<2
+    - netCDF4
+    - numpy >=1.20
     - pandas >=0.24.0
     - pep8 >=1.7.1
     - pygrib
@@ -38,7 +38,7 @@ requirements:
     - scipy >=1.3.0
     - spectral >=0.19
     - utm
-    - xarray >2023,<2024.1.1
+    - xarray
 
 test:
   imports:
