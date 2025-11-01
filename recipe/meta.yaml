@@ -22,7 +22,7 @@ requirements:
   run:
     - click
     - dask
-    - h5py
+    - h5py <=3.14.0
     - netCDF4
     - numpy >=1.20
     - pandas >=0.24.0
@@ -39,6 +39,7 @@ requirements:
     - spectral >=0.19
     - utm
     - xarray
+    - zarr
 
 test:
   imports:
