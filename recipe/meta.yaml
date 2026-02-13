@@ -29,7 +29,7 @@ requirements:
     - pytest >=3.5.1
     - python >={{ python_min }}
     - python-xxhash
-    - pytorch-cpu
+    - pytorch
     - pyyaml >=5.1.2
     - ray-default
     - scikit-image >=0.17.0
