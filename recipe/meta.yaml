@@ -28,7 +28,7 @@ requirements:
     - pep8 >=1.7.1
     - pytest >=3.5.1
     - python >={{ python_min }}
-    - python-xxhash <3
+    - python-xxhash
     - pytorch-cpu
     - pyyaml >=5.1.2
     - ray-default
