@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -28,7 +28,7 @@ requirements:
     - pep8 >=1.7.1
     - pytest >=3.5.1
     - python >={{ python_min }}
-    - python-xxhash <3
+    - python-xxhash >=1.2.0
     - pytorch-cpu
     - pyyaml >=5.1.2
     - ray-default
