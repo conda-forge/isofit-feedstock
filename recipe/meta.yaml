@@ -20,7 +20,6 @@ requirements:
     - python {{ python_min }}
     - hatchling
   run:
-    - build
     - click
     - dask
     - h5py <=3.14.0
@@ -29,6 +28,7 @@ requirements:
     - pep8 >=1.7.1
     - pytest >=3.5.1
     - python >={{ python_min }}
+    - python-build
     - python-xxhash >=1.2.0
     - pytorch
     - pyyaml >=5.1.2
