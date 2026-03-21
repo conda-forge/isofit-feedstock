@@ -1,5 +1,5 @@
 {% set name = "isofit" %}
-{% set version = "3.7.4" %}
+{% set version = "3.7.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/isofit-{{ version }}.tar.gz
-  sha256: 2f7cf5bf00b4f04dfd7d2756f755a0869be199dd74702049d48ab6a7025b05fd
+  sha256: cb97857ab3ec4e7d4e948c296fd21d1b0eb9107d1a444835734c99afaebb967f
 
 build:
   noarch: python
@@ -24,6 +24,7 @@ requirements:
     - dask
     - h5py <=3.14.0
     - netCDF4 <1.7.4
+    - numba
     - numpy >=1.20
     - pep8 >=1.7.1
     - pytest >=3.5.1
