@@ -41,6 +41,7 @@ requirements:
     - spectral >=0.19
     - twine
     - xarray
+    - zarr >=3
 
 test:
   imports:
