@@ -1,5 +1,6 @@
 {% set name = "isofit" %}
 {% set version = "4.0.0a0" %}
+{% set python_min = "3.11" %}
 
 package:
   name: {{ name|lower }}
