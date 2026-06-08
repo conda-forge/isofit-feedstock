@@ -12,8 +12,10 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
+  entry_points:
+    - isofit = isofit.__main__:cli
 
 requirements:
   host:
@@ -48,6 +50,7 @@ test:
     - isofit
   commands:
     - pip check
+    - isofit --version
   requires:
     - pip
     - python {{ python_min }}
