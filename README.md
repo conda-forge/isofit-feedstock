@@ -16,7 +16,6 @@ Documentation: https://github.com/isofit/isofit/wiki
 ISOFIT contains a set of routines and utilities for fitting surface,
 atmosphere and instrument models to imaging spectrometer data
 
-
 Current build status
 ====================
 
