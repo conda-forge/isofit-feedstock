@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: isofit
-  version: "4.1.5"
+  version: "4.2.0"
   python_min: "3.11"
 
 package:
@@ -11,10 +11,10 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/${{ name[0] }}/${{ name }}/isofit-${{ version }}.tar.gz
-  sha256: 76fda4e9e00c591f3c0e9a9ffb4589897e343c6b59deaa4ca77e729832efe878
+  sha256: d816c51f47477cd3bf55e1f1521c79f7dc7053386b1c5b8f005df9d0479e015e
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . --no-deps -vv
   python:
